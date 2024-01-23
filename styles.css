@@ -1,0 +1,110 @@
+* { font-family: 'Balsamiq Sans', sans-serif;
+}
+
+.links {
+    color: #2b78e4;
+}
+.container {
+    padding: 60px;
+    padding-top:0px;
+}
+.headerBar {
+    width:auto;
+    height: auto;
+    background-color: #c1c1c1c6;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.fakeSearchBar {
+    border-style: solid;
+    background-color: white;
+    color: grey;
+    height: 20px;
+    width: 40%;
+    font-size: x-small;
+    display:flex;
+    align-items: center;
+    padding-left: 10px;
+
+}
+
+.login-logout {
+    background-color:#2b78e4;
+    box-shadow: 4px 4px 8px black;
+}
+
+.webPage {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column1 {
+    flex:2;
+    margin-right: 30px;
+}
+
+.column2 {
+    flex:1;
+    gap: 30px;
+}
+
+.definitionBox {
+    border-style: solid;
+    gap:50px;
+    margin-top: 20px;
+    padding: 10px 20px 20px 20px;
+    display: flex;
+}
+
+.wordBox {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.buttonBox {
+    display: flex;
+    justify-content: center;
+    margin-top:-50px;
+}
+
+.likeButton {
+    background-color:#f2ca4e;
+    box-shadow: 4px 4px 8px black;
+}
+
+.dojoBox {
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.addDefButton {
+    background-color: #94c47d;
+    box-shadow: 4px 4px 8px black;
+}
+
+.definition {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

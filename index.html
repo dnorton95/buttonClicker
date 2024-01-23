@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="headerBar">
+            <div class="headerBarHeading">
+                <h1>Dojonary</h1>
+            </div>
+            <div class="fakeSearchBar">
+                <p>Search...</p>
+            </div>
+            <div class="searchBar"></div>
+            <div class="headerButton">
+                <button class="login-logout" onclick="toggleLoginLogout()">Login</button>
+            </div>
+        </div>
+        <div class="webPage">
+            <div class="column1">
+                <div class="definitionBox">
+                    <div class="col1">
+                        <div class="wordBox">
+                            <h2>ninja</h2>
+                            <p><em>noun</em></p>
+                            <p>Plural:<em>ninjas</em></p>
+                        </div>
+                        <div class="buttonBox">
+                            <button class="likeButton" onclick="alertLike()">
+                                13 Likes
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col2">
+                        <div class="definition">
+                            <p>A practitioner skilled in the <a class="links" href="https://en.wikipedia.org/wiki/Japanese">Japanese</a> art of <a class="links" href="https://en.wikipedia.org/wiki/Ninjutsu">ninjutsu</a>.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="definitionBox">
+                    <div class="col1">
+                        <div class="wordBox">
+                            <h2>ninja</h2>
+                            <p><em>noun</em></p>
+                            <p>Plural:<em>ninjas</em></p>
+                        </div>
+                        <div class="buttonBox">
+                            <button class="likeButton" onclick="alertLike()">
+                                37 Likes
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col2">
+                        <div class="definition">
+                            <p>A <a class="links" href="https://en.wikipedia.org/wiki/Programmer">programmer</a> who breaks down problems with <a class="links" href="https://en.wikipedia.org/wiki/Zen">zen</a>-like focus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column2">
+                <div class="dojoBox">
+                    <div class="wordBox">
+                        <h2>Dojonary is defined by YOU</h2>
+                    </div>
+                    <div class="buttonBox">
+                        <button class="addDefButton" onclick="remove(this)">Add Definition</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
